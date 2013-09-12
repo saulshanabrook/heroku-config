@@ -32,6 +32,10 @@ Add the following to `.gitignore`:
     $ heroku config:push
     Config in .env written to example
 
+    # you can specify a custom environment filename instead
+    $ heroku config:push configs/heroku.env
+    Config in configs/heroku.env written to example
+
 ## How it works
 
 Your environment will be stored locally in a file named `.env`. This
